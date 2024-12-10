@@ -4,6 +4,7 @@ import CounterReducer from './CounterStates/CounterReducer';
 import CounterObjects from './CounterStates/CounterObjects';
 import LinkComponent from './LinkComponent';
 import TaksList from './TodoList/TaskList';
+import TodoList_Soultion from './TodoList_Soultion/TaskList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/CounterReducer" element={<CounterReducer />} />
           <Route path="/CounterObjects" element={<CounterObjects />} />
           <Route path="/TaksList" element={<TaksList />} />
+          <Route path="/TodoList_Soultion" element={<TodoList_Soultion />} />
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </Router>
