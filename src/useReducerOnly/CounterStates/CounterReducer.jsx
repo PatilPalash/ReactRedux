@@ -3,9 +3,9 @@ import React, { useReducer, useState } from 'react'
 function reducer(state, action) {
     switch (action) {
         case "Increment":
-            return state +1;
+            return state + 1;
         case "Decrement":
-            return state -1;
+            return state - 1;
         case "Reset":
             return 0;
         default:

@@ -4,6 +4,8 @@ import { useReducer } from "react";
 const initialtask = [];
 
 function reducer(state, action) {
+    // console.log(action)
+    // console.log(state)
     switch (action.type) {
         case "add-task":
             return [...state, createnewTask(action.payload.name)];

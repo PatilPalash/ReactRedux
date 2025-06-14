@@ -8,7 +8,7 @@ export default function Task({ task, dispatch }) {
                 </span>
 
                 <button onClick={() => dispatch({ type: "toggle-task", payload: { id: task.id } })}>{task.complete ? 'Undo' : 'Complete'}</button>
-                <button onClick={()=>dispatch({type:'delete-task',payload:{id:task.id}})}>Delete</button>
+                <button onClick={() => dispatch({ type: 'delete-task', payload: { id: task.id } })}>Delete</button>
             </div>
         </>
     );

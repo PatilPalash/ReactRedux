@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Counter from './CounterStates/Counter';
-import CounterReducer from './CounterStates/CounterReducer';
-import CounterObjects from './CounterStates/CounterObjects';
+import Counter from './useReducerOnly/CounterStates/Counter';
+import CounterReducer from './useReducerOnly/CounterStates/CounterReducer';
+import CounterObjects from './useReducerOnly/CounterStates/CounterObjects';
 import LinkComponent from './LinkComponent';
-import TaksList from './TodoList/TaskList';
-import TodoList_Soultion from './TodoList_Soultion/TaskList';
+import TaksList from './useReducerOnly/TodoList/TaskList';
+import TodoList_Soultion from './useReducerOnly/TodoList_Soultion/TaskList';
 
 function App() {
   return (
